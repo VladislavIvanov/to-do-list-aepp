@@ -51,17 +51,17 @@
         My tasks <br/>
         Total: {{ todos.length }}
       </h2>
-      <div v-bind:class="{ waitingCallOverlay: waitingCall }" class="my-tasks mt-8 -mx-2">
+      <div v-bind:class="{ waitingCallOverlay: waitingCall }" class="my-tasks" v-if="todos.length > 0">
         <div class="my-tasks-inner p-4 rounded-sm shadow">
           <div class="-mx-2 mt-4 mb-4">
-            <div class="to-do-content" v-for="(todo, index) in todos" :todo.sync="todo" v-bind:class="{ completedTask: todo.done }">
+            <div class="to-do-content" v-bind:key="index" v-for="(todo, index) in todos" :todo.sync="todo" v-bind:class="{ completedTask: todo.done }">
               <div class='to-do-header'>
                 {{ todo.title }}
               </div>
               <div class='to-do-status completed' v-show="todo.done" disabled>
                 &#10004; Completed
               </div>
-              <div class='to-do-status pending' v-on:click="" v-show="!todo.done">
+              <div class='to-do-status pending' v-show="!todo.done">
                 Pending
               </div>
               <div class="mark-as-complete" v-show="!todo.done">
@@ -73,7 +73,7 @@
       </div>
       <div v-bind:class="{ waitingCallOverlay: waitingCall }" class="create-task-holder">
         <div class="create-task-input-holder">
-          <input v-model.string="createTaskInput" class="w-full p-2" type="text" id="create-task-input" placeholder="Task name">
+          <input v-model="createTaskInput" class="w-full p-2" type="text" id="create-task-input" placeholder="Task name">
         </div>
         <div id="create-task">
           <button class="ae-button" @click="createTask">Create task</button>
@@ -185,10 +185,32 @@
       },
       async callContract (func, args, options) {
         console.log(`calling a function on a deployed contract with func: ${func}, args: ${args} and options:`, options)
-        try {
-          return this.client.contractCall(this.byteCode, 'sophia', this.contractAddress, func, {args, options})
-        } catch (err) {
-          console.log(err)
+        return this.client.contractCall(this.byteCode, 'sophia', this.contractAddress, func, {args, options})
+      },
+      async callStatic (func, args) {
+        console.log(`calling static func ${func} with args ${args}`)
+        return this.client.contractCallStatic(this.contractAddress, 'sophia-address', func, { args })
+      },
+      async onCallStatic (funcName, funcArgs, returnType) {
+        if (funcName && funcArgs && returnType) {
+          this.waitingCall = true
+          try {
+            const dataRes = await this.callStatic(funcName, funcArgs)
+            this.callRes = dataRes.result
+            const data = await this.client.contractDecodeData(returnType, dataRes.result)
+            console.log(data)
+
+            this.callRes = `Function: ${funcName} <br><br>---<br><br> Result: <br><br> ${data.value}`
+            this.callError = ''
+            this.waitingCall = false
+
+            return data
+          } catch (err) {
+            this.callError = `${err}`
+            this.waitingCall = false
+          }
+        } else {
+          this.callStaticError = 'Please enter a Function and 1 or more Arguments.'
         }
       },
       async assignBalance (accountPub) {
@@ -206,7 +228,7 @@
         }
         const opts = Object.assign(extraOpts, this.callOpts)
 
-        if (funcName && funcArgs) {
+        if (funcName && funcArgs && returnType) {
           this.waitingCall = true
           try {
             const dataRes = await this.callContract(funcName, funcArgs, opts)
@@ -278,14 +300,14 @@
         }
       },
       async getContractTasks () {
-        const data = await this.onCallDataAndFunctionAsync('get_task_count', '()', 'int')
+        const data = await this.onCallStatic('get_task_count', '()', 'int')
         console.log(data.value)
         let taskName
         let taskCompleted
 
         for (let i = 0; i < data.value; i++) {
-          taskName = await this.onCallDataAndFunctionAsync('get_task_by_index', `(${i})`, 'string')
-          taskCompleted = await this.onCallDataAndFunctionAsync('task_is_completed', `(${i})`, 'bool')
+          taskName = await this.onCallStatic('get_task_by_index', `(${i})`, 'string')
+          taskCompleted = await this.onCallStatic('task_is_completed', `(${i})`, 'bool')
           console.log(taskCompleted.value)
           const task = {
             title: taskName.value,
@@ -316,7 +338,7 @@
 
   .my-tasks {
     max-height: 600px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     border-radius: 12px;
     border: 1px solid lightgray;
