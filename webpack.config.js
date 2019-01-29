@@ -17,14 +17,14 @@ const jsLoader = 'babel-loader!standard-loader?error=true'
 //
 // https://github.com/FullHuman/purgecss#extractor
 class TailwindExtractor {
-  static extract (content) {
+  static extract(content) {
     return content.match(/[A-z0-9-:\/]+/g) || []
   }
 }
 
 module.exports = {
   entry: './src/index.js',
-  resolve: {symlinks: false},
+  resolve: { symlinks: false },
   mode: process.env.NODE_ENV === 'prod' ? 'production' : 'development',
   output: {
     filename: '[name].bundle.js?[hash]',

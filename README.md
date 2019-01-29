@@ -27,6 +27,10 @@ export default {
 yarn run start:dev
 ```
 
+## Once finished it will look like this
+![](./to-do-list-aepp.png)
+ 
+
 ## Aepp  functionalities
 
 - connect to host provided in the ```settings.js``` file;

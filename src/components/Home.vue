@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="header">
-      <span v-bind:style="{ 'color': '#F03C6E' }">AEternity</span> To-do list
+      <span v-bind:style="{ 'color': '#F03C6E' }">Æternity</span> To-do list
     </div>
 
     <div id="modal-button-holder" v-if="!showModal && !this.account.priv">
@@ -15,7 +15,7 @@
             <div class="modal-container">
               <div class="private-key-input-holder">
                 <h2 for="privateKeyInput">Private(secret) key</h2>
-                <input v-model.string="privateKeyInput" class="w-full p-2" type="text" id="privateKeyInput" placeholder="Please provide your private key">
+                <input v-model="privateKeyInput" class="w-full p-2" type="text" id="privateKeyInput" placeholder="Please provide your private key">
               </div>
               <div class="footer">
                 <button class="modal-default-button ae-button" @click="connectWithPrivateKey">
@@ -215,7 +215,6 @@
       },
       async assignBalance (accountPub) {
         return this.client.balance(accountPub).then(balance => {
-          // console.log('balance', balance)
           return balance
         })
       },
