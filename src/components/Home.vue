@@ -183,11 +183,11 @@
           }
         }
       },
-      async callContract (func, args, options) {
+      callContract (func, args, options) {
         console.log(`calling a function on a deployed contract with func: ${func}, args: ${args} and options:`, options)
         return this.client.contractCall(this.byteCode, 'sophia', this.contractAddress, func, {args, options})
       },
-      async callStatic (func, args) {
+      callStatic (func, args) {
         console.log(`calling static func ${func} with args ${args}`)
         return this.client.contractCallStatic(this.contractAddress, 'sophia-address', func, { args })
       },
