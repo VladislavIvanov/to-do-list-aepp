@@ -8,7 +8,7 @@ This is a simple To-do list Aepp that demonstrates how to interact with already 
 
 1. Clone this repo and install required dependencies
 ```bash
-git clone https://github.com/aeternity/to-do-list/
+git clone https://github.com/VladislavIvanov/to-do-list-aepp.git
 cd to-do-list-aepp
 yarn install
 ```
