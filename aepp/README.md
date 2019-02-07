@@ -28,7 +28,7 @@ yarn run start:dev
 ```
 
 ## Once finished it will look like this
-![](./to-do-list-aepp.png)
+![](to-do-list-aepp.png)
  
 
 ## Aepp  functionalities

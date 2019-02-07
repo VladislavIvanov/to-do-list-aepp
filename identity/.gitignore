@@ -1,0 +1,8 @@
+/node_modules
+/dist
+*.log
+.envrc
+.tern-port
+.vscode
+.DS_Store
+.idea/

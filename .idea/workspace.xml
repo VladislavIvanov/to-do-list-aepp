@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10b0db6f-4528-46de-ad12-0356b00647fe" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/postcss.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serve.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Home.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/store.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tailwind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/to-do-list-aepp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="186">
+                  <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#2023#2072#0" expanded="true" />
+                    <element signature="e#4046#4808#0" expanded="false" />
+                    <element signature="e#4848#4958#0" expanded="false" />
+                    <element signature="e#6385#6687#0" expanded="false" />
+                    <element signature="e#6720#7338#0" expanded="false" />
+                    <element signature="n#style#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/identity/src/settings.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aepp/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/identity/src/components/Home.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="530">
+                  <caret line="81" column="46" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#1252#1305#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aepp-origin/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/identity/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="account.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/identity/src/account.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/aepp/src/components/Home.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="551">
+                  <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
+                  <folding>
+                    <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+                    <element signature="e#3866#3915#0" expanded="true" />
+                    <element signature="e#5645#6329#0" expanded="false" />
+                    <element signature="e#6372#6612#0" expanded="false" />
+                    <element signature="e#6644#6824#0" expanded="false" />
+                    <element signature="e#6884#7646#0" expanded="false" />
+                    <element signature="e#7687#7797#0" expanded="false" />
+                    <element signature="e#7871#8964#0" expanded="false" />
+                    <element signature="e#8991#10124#0" expanded="false" />
+                    <element signature="e#10163#10358#0" expanded="false" />
+                    <element signature="e#10386#10688#0" expanded="false" />
+                    <element signature="e#10722#11340#0" expanded="false" />
+                    <element signature="n#style#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my-tasks</find>
+      <find>tail</find>
+      <find>tailwind</find>
+      <find>og.apply</find>
+      <find>serve</find>
+      <find>contracts</find>
+      <find>To-do list</find>
+      <find>server</find>
+      <find>Contracts</find>
+      <find>accounts</find>
+      <find>bind</find>
+      <find>jenkinsfile</find>
+      <find>dist</find>
+      <find>returnedData</find>
+      <find>returnType</find>
+      <find>space-before-function-paren</find>
+      <find>rules</find>
+      <find>()</find>
+      <find>store.js</find>
+      <find>Contract</find>
+      <find>value</find>
+      <find>bytecode</find>
+      <find>calculateFee</find>
+      <find>client</find>
+      <find>settingsData</find>
+      <find>callOpts</find>
+      <find>gas</find>
+      <find>getClient</find>
+      <find>connectWithPrivateKey</find>
+      <find>host</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>waitingCall</replace>
+      <replace>()</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/components/Modal.vue" />
+        <option value="$PROJECT_DIR$/src/components/ToDoBoard.vue" />
+        <option value="$PROJECT_DIR$/src/components/Todo.vue" />
+        <option value="$PROJECT_DIR$/src/components/CreateTodo.vue" />
+        <option value="$PROJECT_DIR$/src/components/TodoList.vue" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/main.css" />
+        <option value="$PROJECT_DIR$/postcss.config.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/settings.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/aepp/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/aepp/src/settings.js" />
+        <option value="$PROJECT_DIR$/aepp-origin/src/settings.js" />
+        <option value="$PROJECT_DIR$/identity/src/settings.js" />
+        <option value="$PROJECT_DIR$/aepp-origin/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/identity/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/aepp-origin/.gitignore" />
+        <option value="$PROJECT_DIR$/identity/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/aepp/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/aepp-origin/node_modules" />
+    <handled-path value="$PROJECT_DIR$/aepp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/identity/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="3008" />
+    <option name="height" value="1602" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
+              <item name="aepp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
+              <item name="aepp-origin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
+              <item name="identity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/standard" />
+    <property name="standardjs.codestyle.accepted" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/identity/src" />
+      <recent name="$PROJECT_DIR$/aepp-origin/src" />
+      <recent name="$PROJECT_DIR$/aepp-origin" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aepp" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10b0db6f-4528-46de-ad12-0356b00647fe" name="Default" comment="" />
+      <created>1548168539885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548168539885</updated>
+      <workItem from="1548168542352" duration="8133000" />
+      <workItem from="1548329715735" duration="34188000" />
+      <workItem from="1548437781111" duration="7947000" />
+      <workItem from="1548674515978" duration="4184000" />
+      <workItem from="1548680584870" duration="17000" />
+      <workItem from="1548749327163" duration="18000" />
+      <workItem from="1548763849451" duration="3092000" />
+      <workItem from="1548776542805" duration="18000" />
+      <workItem from="1548840820986" duration="10784000" />
+      <workItem from="1549466385774" duration="1961000" />
+      <workItem from="1549531827570" duration="10113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80455000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="3008" height="1602" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18317819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aepp/src/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/serve.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#3866#3915#0" expanded="true" />
+            <element signature="e#5645#6329#0" expanded="false" />
+            <element signature="e#6372#6612#0" expanded="false" />
+            <element signature="e#6644#6824#0" expanded="false" />
+            <element signature="e#6884#7646#0" expanded="false" />
+            <element signature="e#7687#7797#0" expanded="false" />
+            <element signature="e#7871#8964#0" expanded="false" />
+            <element signature="e#8991#10124#0" expanded="false" />
+            <element signature="e#10163#10358#0" expanded="false" />
+            <element signature="e#10386#10688#0" expanded="false" />
+            <element signature="e#10722#11340#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Modal.vue" />
+    <entry file="file://$PROJECT_DIR$/src/assets/logo.svg" />
+    <entry file="file://$PROJECT_DIR$/src/components/Todo.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/CreateTodo.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/TodoBoard.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/TodoList.vue" />
+    <entry file="file://$PROJECT_DIR$/aepp/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS" />
+    <entry file="file://$PROJECT_DIR$/aepp/serve.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/tailwind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.dockerignore" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile.ci" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile" />
+    <entry file="file://$PROJECT_DIR$/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/aepp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/to-do-list-aepp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="465">
+            <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@aeternity/aepp-sdk/dist/aepp-sdk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="0" column="3252" lean-forward="false" selection-start-line="0" selection-start-column="3252" selection-end-line="0" selection-end-column="3252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@aeternity/aepp-sdk/es/account/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@aeternity/aepp-sdk/es/contract/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@aeternity/aepp-sdk/es/ae/contract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identity/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identity/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#3866#3915#0" expanded="true" />
+            <element signature="e#5645#6329#0" expanded="false" />
+            <element signature="e#6372#6612#0" expanded="false" />
+            <element signature="e#6644#6824#0" expanded="false" />
+            <element signature="e#6884#7646#0" expanded="false" />
+            <element signature="e#7687#7797#0" expanded="false" />
+            <element signature="e#7871#8964#0" expanded="false" />
+            <element signature="e#8991#10124#0" expanded="false" />
+            <element signature="e#10163#10358#0" expanded="false" />
+            <element signature="e#10386#10688#0" expanded="false" />
+            <element signature="e#10722#11340#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5260" lean-forward="false" selection-start-line="3" selection-start-column="5260" selection-end-line="3" selection-end-column="5260" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identity/src/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identity/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="81" column="46" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+          <folding>
+            <element signature="e#1252#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <folding>
+            <element signature="e#2023#2072#0" expanded="true" />
+            <element signature="e#4046#4808#0" expanded="false" />
+            <element signature="e#4848#4958#0" expanded="false" />
+            <element signature="e#6385#6687#0" expanded="false" />
+            <element signature="e#6720#7338#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identity/src/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identity/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

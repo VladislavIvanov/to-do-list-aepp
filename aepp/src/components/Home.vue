@@ -4,33 +4,33 @@
       <span v-bind:style="{ 'color': '#F03C6E' }">Æternity</span> To-do list
     </div>
 
-    <div id="modal-button-holder" v-if="!showModal && !this.account.priv">
-      <button class="ae-button" @click="showModal = true">Log in with a private key</button>
-    </div>
+    <!--<div id="modal-button-holder" v-if="!showModal && !this.account.priv">-->
+      <!--<button class="ae-button" @click="showModal = true">Log in with a private key</button>-->
+    <!--</div>-->
 
-    <div id="modal-template" v-if="this.showModal">
-      <transition name="modal">
-        <div class="modal-mask">
-          <div class="modal-wrapper">
-            <div class="modal-container">
-              <div class="private-key-input-holder">
-                <h2 for="privateKeyInput">Private(secret) key</h2>
-                <input v-model="privateKeyInput" class="w-full p-2" type="text" id="privateKeyInput" placeholder="Please provide your private key">
-              </div>
-              <div class="footer">
-                <button class="modal-default-button ae-button" @click="connectWithPrivateKey">
-                  Proceed
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </transition>
-    </div>
+    <!--<div id="modal-template" v-if="this.showModal">-->
+      <!--<transition name="modal">-->
+        <!--<div class="modal-mask">-->
+          <!--<div class="modal-wrapper">-->
+            <!--<div class="modal-container">-->
+              <!--<div class="private-key-input-holder">-->
+                <!--<h2 for="privateKeyInput">Private(secret) key</h2>-->
+                <!--<input v-model="privateKeyInput" class="w-full p-2" type="text" id="privateKeyInput" placeholder="Please provide your private key">-->
+              <!--</div>-->
+              <!--<div class="footer">-->
+                <!--<button class="modal-default-button ae-button" @click="connectWithPrivateKey">-->
+                  <!--Proceed-->
+                <!--</button>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</transition>-->
+    <!--</div>-->
 
     <div v-bind:class="{ waitingCall: waitingCall }"></div>
 
-    <div class="board" v-if="this.account.priv && this.account.pub && this.host">
+    <div class="board" v-if="this.account.pub">
       <h6 class="mt-8 font-mono text-sm">
         Network:
         <span v-if="!this.client && !this.clientError" class="text-sm text-red">
@@ -95,6 +95,7 @@
 </template>
 
 <script>
+  import Aepp from '@aeternity/aepp-sdk/es/ae/aepp'
   import Wallet from '@aeternity/aepp-sdk/es/ae/wallet.js'
   import Contract from '@aeternity/aepp-sdk/es/ae/contract.js'
   import MemoryAccount from '@aeternity/aepp-sdk/es/account/memory.js'
@@ -317,7 +318,9 @@
         }
       }
     },
-    mounted () {
+    async created () {
+      const loadedAepp = await Aepp()
+      console.log(loadedAepp)
     }
   }
 </script>
