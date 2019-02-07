@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b0db6f-4528-46de-ad12-0356b00647fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aepp-origin/package.json" afterPath="$PROJECT_DIR$/aepp-origin/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aepp-origin/src/settings.js" afterPath="$PROJECT_DIR$/aepp-origin/src/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aepp-origin/yarn.lock" afterPath="$PROJECT_DIR$/aepp-origin/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/identity/package.json" afterPath="$PROJECT_DIR$/identity/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/identity/yarn.lock" afterPath="$PROJECT_DIR$/identity/yarn.lock" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/postcss.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/serve.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/components/Home.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/src/store.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/tailwind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/to-do-list-aepp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aepp/yarn.lock" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,16 +72,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/aepp/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/identity/src/components/Home.vue">
               <provider selected="true" editor-type-id="text-editor">
@@ -116,23 +119,16 @@
       <split-second>
         <leaf>
           <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/aepp/src/components/Home.vue">
+            <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="551">
-                  <caret line="159" column="14" lean-forward="false" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
+                <state relative-caret-position="186">
+                  <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
                   <folding>
-                    <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-                    <element signature="e#3866#3915#0" expanded="true" />
-                    <element signature="e#5645#6329#0" expanded="false" />
-                    <element signature="e#6372#6612#0" expanded="false" />
-                    <element signature="e#6644#6824#0" expanded="false" />
-                    <element signature="e#6884#7646#0" expanded="false" />
-                    <element signature="e#7687#7797#0" expanded="false" />
-                    <element signature="e#7871#8964#0" expanded="false" />
-                    <element signature="e#8991#10124#0" expanded="false" />
-                    <element signature="e#10163#10358#0" expanded="false" />
-                    <element signature="e#10386#10688#0" expanded="false" />
-                    <element signature="e#10722#11340#0" expanded="false" />
+                    <element signature="e#2023#2072#0" expanded="true" />
+                    <element signature="e#4046#4808#0" expanded="false" />
+                    <element signature="e#4848#4958#0" expanded="false" />
+                    <element signature="e#6385#6687#0" expanded="false" />
+                    <element signature="e#6720#7338#0" expanded="false" />
                     <element signature="n#style#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
@@ -220,9 +216,7 @@
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/aepp/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
@@ -236,7 +230,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/aepp-origin/node_modules" />
-    <handled-path value="$PROJECT_DIR$/aepp/node_modules" />
     <handled-path value="$PROJECT_DIR$/identity/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -268,27 +261,6 @@
             <path>
               <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
               <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="aepp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="aepp-origin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="aepp-origin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,12 +332,12 @@
       <workItem from="1548776542805" duration="18000" />
       <workItem from="1548840820986" duration="10784000" />
       <workItem from="1549466385774" duration="1961000" />
-      <workItem from="1549531827570" duration="10793000" />
+      <workItem from="1549531827570" duration="10899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81135000" />
+    <option name="totallyTimeSpent" value="81241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="3008" height="1602" extended-state="6" />
@@ -421,21 +393,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#3866#3915#0" expanded="true" />
-            <element signature="e#5645#6329#0" expanded="false" />
-            <element signature="e#6372#6612#0" expanded="false" />
-            <element signature="e#6644#6824#0" expanded="false" />
-            <element signature="e#6884#7646#0" expanded="false" />
-            <element signature="e#7687#7797#0" expanded="false" />
-            <element signature="e#7871#8964#0" expanded="false" />
-            <element signature="e#8991#10124#0" expanded="false" />
-            <element signature="e#10163#10358#0" expanded="false" />
-            <element signature="e#10386#10688#0" expanded="false" />
-            <element signature="e#10722#11340#0" expanded="false" />
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,9 +509,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,21 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="159" column="14" lean-forward="false" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#3866#3915#0" expanded="true" />
-            <element signature="e#5645#6329#0" expanded="false" />
-            <element signature="e#6372#6612#0" expanded="false" />
-            <element signature="e#6644#6824#0" expanded="false" />
-            <element signature="e#6884#7646#0" expanded="false" />
-            <element signature="e#7687#7797#0" expanded="false" />
-            <element signature="e#7871#8964#0" expanded="false" />
-            <element signature="e#8991#10124#0" expanded="false" />
-            <element signature="e#10163#10358#0" expanded="false" />
-            <element signature="e#10386#10688#0" expanded="false" />
-            <element signature="e#10722#11340#0" expanded="false" />
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,21 +610,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
-          <folding>
-            <element signature="e#2023#2072#0" expanded="true" />
-            <element signature="e#4046#4808#0" expanded="false" />
-            <element signature="e#4848#4958#0" expanded="false" />
-            <element signature="e#6385#6687#0" expanded="false" />
-            <element signature="e#6720#7338#0" expanded="false" />
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,6 +676,21 @@
         <state relative-caret-position="30">
           <caret line="2" column="81" lean-forward="false" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <folding>
+            <element signature="e#2023#2072#0" expanded="true" />
+            <element signature="e#4046#4808#0" expanded="false" />
+            <element signature="e#4848#4958#0" expanded="false" />
+            <element signature="e#6385#6687#0" expanded="false" />
+            <element signature="e#6720#7338#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
