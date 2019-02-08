@@ -113,8 +113,6 @@
     methods: {
       callContract(func, args, options) {
         console.log(`calling a function on a deployed contract with func: ${func}, args: ${args} and options:`, options)
-        console.log('======================');
-        console.log(this.client.networkId);
         return this.client.contractCall(this.contractAddress, 'sophia-address', this.contractAddress, func, { args, options })
       },
       callStatic(func, args) {
@@ -195,7 +193,6 @@
       },
       async getContractTasks() {
         const taskCount = await this.onCallStatic('get_task_count', '()', 'int')
-        console.log(taskCount)
         let taskName
         let taskCompleted
 
