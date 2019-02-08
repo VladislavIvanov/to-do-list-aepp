@@ -79,8 +79,6 @@
         networkId: settingData.networkId
       }).then(ae => {
         this.client = ae;
-        console.log('----------------------');
-        console.log(this.client.networkId);
         console.log('status', this.client.api.getTopBlock())
         console.log('version', this.client.api.getStatus())
         this.$refs.aepp.src = this.aeppUrl
@@ -89,7 +87,6 @@
           console.log('height', height)
           this.height = height
         })
-        console.log(ae)
 
         ae.balance(this.pub).then(balance => {
           console.log('balance', balance)

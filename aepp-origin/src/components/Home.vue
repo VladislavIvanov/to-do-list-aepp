@@ -70,7 +70,6 @@
         account: { priv: null, pub: null },
         balance: 0,
         balanceInterval: null,
-        byteCode: settingsData.deployedContractByteCode,
         client: false,
         contractAddress: settingsData.deployedContractAddress,
         callOpts: {
@@ -116,7 +115,7 @@
         console.log(`calling a function on a deployed contract with func: ${func}, args: ${args} and options:`, options)
         console.log('======================');
         console.log(this.client.networkId);
-        return this.client.contractCall(this.byteCode, 'sophia', this.contractAddress, func, { args, options })
+        return this.client.contractCall(this.contractAddress, 'sophia-address', this.contractAddress, func, { args, options })
       },
       callStatic(func, args) {
         console.log(`calling static func ${func} with args ${args}`)

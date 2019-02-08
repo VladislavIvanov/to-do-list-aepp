@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b0db6f-4528-46de-ad12-0356b00647fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aepp-origin/src/components/Home.vue" afterPath="$PROJECT_DIR$/aepp-origin/src/components/Home.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aepp-origin/src/settings.js" afterPath="$PROJECT_DIR$/aepp-origin/src/settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/identity/src/components/Home.vue" afterPath="$PROJECT_DIR$/identity/src/components/Home.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,14 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="208" column="33" lean-forward="false" selection-start-line="208" selection-start-column="33" selection-end-line="208" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="71" column="30" lean-forward="false" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding>
                 <element signature="e#2023#2072#0" expanded="true" />
-                <marker date="1549631203394" expanded="false" signature="7675:14718" ph="..." />
+                <marker date="1549631857953" expanded="false" signature="7633:14676" ph="..." />
               </folding>
             </state>
           </provider>
@@ -65,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aepp-origin/src/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,16 +79,10 @@
       <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/identity/src/components/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state relative-caret-position="671">
+              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
               <folding>
                 <element signature="e#1252#1305#0" expanded="true" />
-                <marker date="1549554201255" expanded="true" signature="1432:3019" ph="{&quot;name&quot;: 'Wallet'...}" />
-                <marker date="1549554201255" expanded="true" signature="1907:3015" ph="{...}" />
-                <marker date="1549554201255" expanded="true" signature="2389:3008" ph="{...}" />
-                <marker date="1549554201255" expanded="true" signature="2708:2790" ph="{...}" />
-                <marker date="1549554201255" expanded="true" signature="2862:2948" ph="{...}" />
-                <marker date="1549554201255" expanded="true" signature="2961:2999" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -155,8 +150,8 @@
       <find>connectWithPrivateKey</find>
       <find>networkId</find>
       <find>host</find>
-      <find>byteCode</find>
       <find>onCallStatic</find>
+      <find>byteCode</find>
     </findStrings>
     <replaceStrings>
       <replace>waitingCall</replace>
@@ -196,11 +191,11 @@
         <option value="$PROJECT_DIR$/aepp-origin/.gitignore" />
         <option value="$PROJECT_DIR$/identity/.gitignore" />
         <option value="$PROJECT_DIR$/aepp-origin/package.json" />
-        <option value="$PROJECT_DIR$/identity/src/components/Home.vue" />
-        <option value="$PROJECT_DIR$/aepp-origin/src/settings.js" />
         <option value="$PROJECT_DIR$/aepp-origin/node_modules/@aeternity/aepp-sdk/es/contract/index.js" />
         <option value="$PROJECT_DIR$/identity/node_modules/@aeternity/aepp-sdk/es/contract/index.js" />
+        <option value="$PROJECT_DIR$/identity/src/components/Home.vue" />
         <option value="$PROJECT_DIR$/aepp-origin/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/aepp-origin/src/settings.js" />
       </list>
     </option>
   </component>
@@ -266,46 +261,6 @@
               <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
               <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
               <item name="identity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@aeternity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@aeternity" type="462c0819:PsiDirectoryNode" />
-              <item name="aepp-sdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@aeternity" type="462c0819:PsiDirectoryNode" />
-              <item name="aepp-sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="es" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to-do-list-aepp" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@aeternity" type="462c0819:PsiDirectoryNode" />
-              <item name="aepp-sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="es" type="462c0819:PsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="to-do-list-aepp" type="b2602c69:ProjectViewProjectNode" />
@@ -390,12 +345,12 @@
       <workItem from="1548776542805" duration="18000" />
       <workItem from="1548840820986" duration="10784000" />
       <workItem from="1549466385774" duration="1961000" />
-      <workItem from="1549531827570" duration="18135000" />
+      <workItem from="1549531827570" duration="18688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88477000" />
+    <option name="totallyTimeSpent" value="89030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="3008" height="1602" extended-state="6" />
@@ -699,42 +654,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/identity/src/components/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state relative-caret-position="671">
+          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
           <folding>
             <element signature="e#1252#1305#0" expanded="true" />
-            <marker date="1549554201255" expanded="true" signature="1432:3019" ph="{&quot;name&quot;: 'Wallet'...}" />
-            <marker date="1549554201255" expanded="true" signature="1907:3015" ph="{...}" />
-            <marker date="1549554201255" expanded="true" signature="2389:3008" ph="{...}" />
-            <marker date="1549554201255" expanded="true" signature="2708:2790" ph="{...}" />
-            <marker date="1549554201255" expanded="true" signature="2862:2948" ph="{...}" />
-            <marker date="1549554201255" expanded="true" signature="2961:2999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/identity/src/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aepp-origin/src/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aepp-origin/node_modules/@aeternity/aepp-sdk/es/contract/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -750,14 +673,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/identity/src/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/node_modules/@aeternity/aepp-sdk/es/contract/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aepp-origin/src/components/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="208" column="33" lean-forward="false" selection-start-line="208" selection-start-column="33" selection-end-line="208" selection-end-column="33" />
+        <state relative-caret-position="304">
+          <caret line="71" column="30" lean-forward="false" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="e#2023#2072#0" expanded="true" />
-            <marker date="1549631203394" expanded="false" signature="7675:14718" ph="..." />
+            <marker date="1549631857953" expanded="false" signature="7633:14676" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aepp-origin/src/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
