@@ -127,15 +127,15 @@
           this.waitingCall = true
           try {
             const dataRes = await this.callStatic(funcName, funcArgs)
-            this.callRes = dataRes.result
-            const data = await this.client.contractDecodeData(returnType, dataRes.result)
-            console.log(data)
+            this.callRes = await dataRes.decode(returnType)
+            const dataValue = this.callRes.value
+            console.log(dataValue)
 
-            this.callRes = `Function: ${funcName} <br><br>---<br><br> Result: <br><br> ${data.value}`
+            this.callRes = `Function: ${funcName} <br><br>---<br><br> Result: <br><br> ${dataValue}`
             this.callError = ''
             this.waitingCall = false
 
-            return data
+            return dataValue
           } catch (err) {
             this.callError = `${err}`
             this.waitingCall = false
@@ -195,18 +195,18 @@
         }
       },
       async getContractTasks() {
-        const data = await this.onCallStatic('get_task_count', '()', 'int')
-        console.log(data.value)
+        const taskCount = await this.onCallStatic('get_task_count', '()', 'int')
+        console.log(taskCount)
         let taskName
         let taskCompleted
 
-        for (let i = 0; i < data.value; i++) {
+        for (let i = 0; i < taskCount; i++) {
           taskName = await this.onCallStatic('get_task_by_index', `(${i})`, 'string')
           taskCompleted = await this.onCallStatic('task_is_completed', `(${i})`, 'bool')
-          console.log(taskCompleted.value)
+          console.log(taskCompleted)
           const task = {
-            title: taskName.value,
-            done: !!taskCompleted.value
+            title: taskName,
+            done: !!taskCompleted
           }
           this.todos.push(task)
           console.log(this.todos)
